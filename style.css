@@ -69,8 +69,14 @@
 .ex-7-img:hover{
     filter: sepia(70%);
 }
+.ex-8-img{
+    transition: 2s;
+}
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: sepia(70%);
 
-
+}
 
 
 
