@@ -90,10 +90,34 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 4s;
 }
+.ex-9-img:hover{
+    margin: 0 5px;
+    filter: sepia(70%);
+
+    width: 550px;
+    border-radius: 50px;
+}
+
 .ex-10-icon {
     font-size: 60px;
+    transition: 1s;
+    animation: bananana 5s  linear;
+
 }
+
+@keyframes bananana {
+    0% {
+        transform: rotate(0deg);
+
+    }
+    
+    90% {
+        transform: rotate(360deg);
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
