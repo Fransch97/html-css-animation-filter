@@ -120,9 +120,11 @@
 
 .ex-11-icon {
     font-size: 60px;
-    animation: illuminati 3s infinite;
 }
+.ex-11-icon:hover{
+    animation: illuminati 3s infinite;
 
+}
 
 @keyframes illuminati {
 
