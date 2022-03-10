@@ -103,7 +103,7 @@
 .ex-10-icon {
     font-size: 60px;
     transition: 1s;
-    animation: bananana 1s  infinite;
+    animation: bananana 1s  linear infinite;
 
 }
 
@@ -114,7 +114,7 @@
     }
     
     100% {
-        transform: rotate(360deg);
+        transform: rotate(-360deg);
     }
 }
 
